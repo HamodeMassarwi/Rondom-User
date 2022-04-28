@@ -1,0 +1,38 @@
+
+.side-container{
+    background-color:yellow;
+    left:85%;
+    top:20%;
+    width:15%;
+    height:500px;
+    position:fixed;
+    display-inline:block;
+}
+.blue-container{
+background-color:aqua;
+width:500px;
+height:100px;
+position:relative;
+}
+#profile-image{
+    position: absolute;
+  border-radius: 50%;
+  left:0;
+  width:100px;
+  height:90px;
+
+}
+#name{
+position: absolute;
+left:110px;
+}
+#location{
+position: absolute;
+left:110px;
+top:30px;
+}
+#placer{
+background-color:yellow;
+width:85%;
+height:2px;
+}
