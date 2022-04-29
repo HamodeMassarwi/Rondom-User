@@ -1,4 +1,7 @@
-
+#pokemon-pic {display: block;}
+#pokemon{display: inline;}
+#pokemon-container{display: inline;}
+#fav{display: inline;}
 .side-container{
     background-color:yellow;
     left:85%;
@@ -35,4 +38,32 @@ top:30px;
 background-color:yellow;
 width:85%;
 height:2px;
+}
+.friends{
+  color:blue;
+  font-size:26px
+}
+
+button{
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.btn1{
+  bottom:30px;
+  left:150px; 
+  position: absolute;
+}
+.btn2{
+  bottom:30px;
+  left:5px;
+  position: absolute;
 }
